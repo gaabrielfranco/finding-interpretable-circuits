@@ -9,8 +9,8 @@ Paper: ["Finding Interpretable Prompt-Specific Circuits in Language Models"](htt
 Requires Python 3.10.
 
 ```bash
-git clone https://github.com/gaabrielfranco/finding-highly-interpretable-circuits.git
-cd finding-highly-interpretable-circuits
+git clone https://github.com/gaabrielfranco/finding-interpretable-circuits.git
+cd finding-interpretable-circuits
 
 # Install everything (paper experiments + vendored accpp_tracer library)
 pip install -e .
@@ -336,7 +336,7 @@ python experiments/autointerp/view_circuit.py \
 ## Project Structure
 
 ```
-finding-highly-interpretable-circuits/
+finding-interpretable-circuits/
 ├── lib/accpp_tracer/             # Vendored ACC++ tracing library
 │   └── src/accpp_tracer/
 │       ├── circuit.py            # Tracer class (trace / trace_from_cache)
